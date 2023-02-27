@@ -1,7 +1,7 @@
-FROM harbor.chinagci.com/public/euleros:2.5
+FROM hxzqwe/euleros:2.5
 
-LABEL author=chenyifu \
-      mail=chenyifu@chinagci.com
+LABEL author=hxzqwe \
+      mail=hxzqwe@gmail.com
 
 ENV JAVA_VERSION_MAJOR=8 \
     JAVA_VERSION_MINOR=342 \
